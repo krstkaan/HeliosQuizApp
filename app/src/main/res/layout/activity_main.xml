@@ -393,7 +393,7 @@ android:layout_marginTop="16dp"
     </ScrollView>
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
-        android:id="@+id/menu"
+        android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         app:cnb_iconSize="20dp"

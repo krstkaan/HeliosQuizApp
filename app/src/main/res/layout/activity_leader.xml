@@ -7,7 +7,7 @@
     tools:context=".Activity.LeaderActivity">
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
-        android:id="@+id/menu"
+        android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/white"

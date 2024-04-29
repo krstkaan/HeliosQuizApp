@@ -58,8 +58,8 @@ class LeaderActivity : AppCompatActivity() {
                 .load(drawableResourceId3)
                 .into(pic1)
 
-            menu.setItemSelected(R.id.Board)
-            menu.setOnItemSelectedListener {
+            bottomMenu.setItemSelected(R.id.Board)
+            bottomMenu.setOnItemSelectedListener {
                if (
                      it==R.id.home){
                      val intent= Intent(this@LeaderActivity,MainActivity::class.java)
